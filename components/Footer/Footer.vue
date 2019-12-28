@@ -17,7 +17,7 @@
       <div class="page-right"></div>
       <div :class="['footer__shadow', gradient.class]"></div>
     </div>
-    <div class="footer__copyright" v-text="copyright"></div>
+    <div class="footer__copyright" v-html="copyright"></div>
   </div>
 </template>
 
