@@ -130,11 +130,12 @@ export default {
       background-color: $containerBgColor;
 
   &__copyright
-    font-size: 12px;
-    color: $textColorLighter;
-    text-align: center;
-    padding: 80px 0 20px 0;
-    background-color: $containerBgColor;
+    &, & > a
+      font-size: 12px;
+      color: $textColorLighter;
+      text-align: center;
+      padding: 80px 0 20px 0;
+      background-color: $containerBgColor;
 
   &__shadow
     width: 85%;
